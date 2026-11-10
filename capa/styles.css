@@ -1,0 +1,150 @@
+.bg-body-tertiary {
+    background-color: #00a1c5 !important;
+    --bs-bg-opacity: 1;
+}
+
+ /* Navbar */
+ .navbar {
+    border-bottom: 7px solid #ef7230;
+    background-color: #00a1c5 !important;
+    padding: 5px 0;
+}
+
+.navbar .navbar-brand img {
+    height: 50px;
+    max-height: 50px;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: white !important;
+}
+
+.navbar .nav-link:hover {
+    color: #ef7230 !important;
+}
+
+/* Styling Resep */
+.page-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.page-title img {
+    width: 35px;
+    height: 35px;
+}
+
+.table-resep {
+    font-size: 0.9rem;
+}
+
+.table-resep th, .table-resep td {
+    padding: 6px 10px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-header {
+background-color: #00a1c5 !important;
+color: white !important; /* Agar teks tetap terlihat jelas */
+}
+
+/* Button */
+.btn-custom {
+    background-color: #00a1c5;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #0085a3;
+}
+
+.btn-success {
+    background-color: #00d084;
+    border-color: #00d084;
+}
+
+.btn-success:hover {
+    background-color: #00b670;
+    border-color: #00b670;
+}
+
+/* Canvas Signature */
+#signatureCanvas {
+    border: 0.5px solid #000;
+    cursor: crosshair;
+    width: 100%;
+    height: 200px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #41bad3;
+    color: white;
+}
+tbody tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+/* Navbar Styling */
+.navbar {
+    border-bottom: 7px solid #ef7230;
+    background-color: #00a1c5 !important;
+    padding: 5px 0;
+}
+
+.navbar .navbar-brand img {
+    height: 50px;
+    max-height: 50px;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: white !important;
+}
+
+.navbar .nav-link:hover {
+    color: #ef7230 !important;
+}
+
+/* Button Styling */
+.btn-search {
+    background-color: #8ed1fc !important;
+    border-color: #8ed1fc !important;
+    color: black !important;
+}
+
+.btn-search:hover {
+    background-color: #6eb9e7 !important;
+    border-color: #6eb9e7 !important;
+}
+
+.btn-lihat-resep {
+    background-color: #00a1c5 !important;
+    border-color: #00a1c5 !important;
+    color: white !important;
+}
+
+.btn-lihat-resep:hover {
+    background-color: #008cb0 !important;
+    border-color: #008cb0 !important;
+}
+
+.btn-sudah-ditandatangani {
+    background-color: #00d084 !important;
+    border-color: #00d084 !important;
+    color: white !important;
+}
+
+.btn-sudah-ditandatangani:hover {
+    background-color: #00b872 !important;
+    border-color: #00b872 !important;
+}
+
+/* Memberikan jarak antar tombol */
+.btn-group-gap {
+    margin-right: 8px;
+}

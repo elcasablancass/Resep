@@ -1,0 +1,8 @@
+# Third-party software installers / archives (not part of this project)
+KMSpico*/
+*.7z
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
